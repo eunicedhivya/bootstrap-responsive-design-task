@@ -1,0 +1,138 @@
+body {
+  background-color: #636363;
+}
+.content {
+  background-color: #fff;
+}
+
+.header {
+}
+
+.header h1 {
+  text-transform: uppercase;
+  background-color: gold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 33px;
+  margin-top: -40px;
+  text-transform: uppercase;
+  background-color: gold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 10;
+}
+.header .img-fluid {
+  border-radius: 50%;
+}
+.jumbotron {
+  background-color: transparent;
+  border-bottom: 20px solid #fff;
+  padding-bottom: 0;
+  height: 320px;
+  margin-bottom: 35px;
+}
+.add {
+  display: inline-block;
+  margin-bottom: 0;
+  border-right: 1px solid #666;
+  padding: 0 10px;
+}
+
+.contact-details {
+  border-bottom: 1px solid #666;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.contact-details a {
+  border-right: 1px solid #666;
+  padding: 0 10px;
+  color: #333;
+}
+
+.contact-details a:last-child {
+  border-right: none;
+}
+.row {
+  position: relative;
+}
+
+.border-between > .col-md-6:last-child::before {
+  background: #e3e3e3;
+  bottom: 0;
+  content: " ";
+  left: 0;
+  position: absolute;
+  width: 1px;
+  top: 0;
+}
+
+.subskills h3 {
+  font-size: 18px;
+}
+
+.subskills .row {
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+}
+.subskills .progress {
+  height: 10px;
+  border-radius: 0;
+}
+.subskills .progress-bar {
+  background-color: goldenrod;
+}
+.job-describe h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+.job-describe h3 p {
+  margin: 0;
+}
+
+.resume-section {
+  margin-bottom: 30px;
+}
+.resume-section h2 i {
+  background-color: #493203;
+  padding: 10px;
+  font-size: 22px;
+  line-height: 21px;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.header .img-fluid {
+  width: 290px;
+}
+
+.job-describe ul {
+  padding: 15px;
+}
+.job-describe .text-left p {
+  color: #8e8e8e;
+}
+
+@media (max-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .hidden-xs {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  /* landscape tablets, landscape iPad, lo-res laptops ands desktops */
+  .jumbotron {
+    height: 356px;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
